@@ -1,4 +1,4 @@
-#Telegramm bot for OpenAI GPT 3.5 Turbo
+# Telegramm bot for OpenAI GPT 3.5 Turbo
 
 Ready for one file pyinstaller compilation:
 
