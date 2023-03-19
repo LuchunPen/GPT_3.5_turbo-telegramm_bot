@@ -11,8 +11,8 @@ logging.basicConfig(level=logging.INFO)
 def get_app_directory():
     # determine if application is a script file or frozen exe
     if getattr(sys, 'frozen', False):
-        #application_path = sys._MEIPASS
         application_path = os.path.dirname(sys.executable)
+        #application_path = sys._MEIPASS
     else:
         application_path = os.path.dirname(os.path.abspath(__file__))
     return application_path
