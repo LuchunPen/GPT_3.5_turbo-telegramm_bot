@@ -1,6 +1,6 @@
 # Telegramm bot for OpenAI GPT 3.5 Turbo
 
-Ready for one file pyinstaller compilation:
+One file pyinstaller compilation:
 
 * with separated .env file settings `pyinstaller GPT_telebot.py --onefile  --copy-metadata magic_filter`
 
